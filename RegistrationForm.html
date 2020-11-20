@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="RegistrationForm.css">
+        <script src=Valid.js></script>
+    </head>
+    <body>
+        <header><h3> REGISTRATION FORM </h3></header>
+        <form action="#" method="GET">
+        <table align="center">
+           
+                <tr>
+                    <td>Enter Name:</td>
+                    <td><input type="text" name="name" id="nameid"></td>
+                    <td><label id="nameMsg"></label></td>
+                </tr>
+                <tr>
+                    <td>Enter Address:</td>
+                    <td><input type="text" name="address" id="addressid"></td>
+                    <td><label id="addressMsg"></label></td>
+                </tr>
+                <tr>
+                    <td>Enter Email:</td>
+                    <td><input type="email" name="email" id="emailid"></td>
+                    <td><label id="emailMsg"></label></td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter Gender:
+                    </td>
+      
+                    <td>
+                        <input type="radio" name="gender" id="genderId" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="qualification">Qualification: </label></td>
+                    <td><select name="qualification" id="qualificationId" required>
+                        <option value="" disabled selected>select one option</option>
+                        <option value="UG">UG</option>
+                        <option value="PG">PG</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Enter Mobile Number:</td>
+                    <td><input type="number" name="number" id="numberid"></td>
+                     <td><label id="numberMsg"></label></td>
+                </tr>
+                <tr>
+                    <td>Enter DOB:</td>
+                    <td><input type="text" name="dob" id="dobid"></td>
+                    <td><label id="dobMsg"></label></td>
+                </tr>
+                <tr>
+                    <td>Enter StudentId:</td>
+                    <td><input type="text" name="student" id="studentid"></td>
+                </tr>
+               
+                    <td><input type="submit" value="submitted" style="background-color: rgb(150, 74, 24)" onclick="return Valid()"></td>
+                
+            </table>
+            </form>
+        
+    </body>
+</html>
