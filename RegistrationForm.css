@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+    color:blue;
+}
+label {
+    font-size: medium;
+    font-style: normal;
+    font-family: "Lucida Console";
+}
+input, textarea, select {
+
+    width: 200px;
+    padding: 12px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+    
+}
+
+table{
+   
+    width: auto;
+    height:50px;
+    padding:10px;
+    color: black;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(50, 209, 10);
+    color: white;
+    text-align: center;
+}
+
+td:hover{
+    background-color: cadetblue;
+}
